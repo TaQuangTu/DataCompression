@@ -54,3 +54,4 @@ class LzwEncoder:
                 s = entry
                 bytes = dFile.read(1)
             print("decode = ", resultText)
+            oFile.write(resultText)
